@@ -1,0 +1,214 @@
+@import 'https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap';
+
+:root {
+    --font-family: 'Mulish', sans-serif;
+    --background-color: rgba(0, 0, 0, 0.945);
+    --fill-color: rgb(59, 0, 155);
+    --icon-color: rgb(255, 255, 255);
+    --box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.842);
+    --transition-speed: 0.3s;
+    --border-radius: 10px;
+    --stat-width: 3.5vw;
+    --stat-height: 18px;
+    --fill-height: 12px;
+    --icon-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+body {
+    overflow: hidden;
+}
+
+.stats {
+    position: fixed;
+    bottom: 20px;
+    left: 25px;
+    display: flex;
+    gap: 0.8vw;
+    align-items: center;
+    transition: left var(--transition-speed) ease-in-out;
+}
+
+.stats .item {
+    border-radius: var(--border-radius);
+    width: var(--stat-width);
+    height: var(--stat-height);
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 1.3vw;
+}
+
+.stats .fill {
+    border-radius: var(--border-radius);
+    width: 0%;
+    max-width: calc(var(--stat-width) - 8px);
+    height: var(--fill-height);
+    transition: var(--transition-speed);
+    background-color: var(--fill-color);
+    transform: translateX(5px);
+}
+
+.stats .item::before {
+    content: "";
+    position: absolute;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: rgba(0, 0, 0, 0.945);
+    border-radius: 100px;
+    z-index: 0;
+    transform: translateX(-25px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.842);
+}
+
+.stats .item svg {
+    position: absolute;
+    width: 17%;
+    fill: var(--icon-color);
+    left: 2px;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 4px #00000050);
+    transform: translateX(4.5px);
+}
+
+.speedometer {
+    position: absolute;
+    bottom: 2.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.8vw;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease-in-out;
+}
+
+.speedometer .item p.px {
+    position: absolute;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 0.6vw;
+    margin-bottom: -1vw;
+    width: 2.2vw;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.56);
+}
+
+.speedometer .item svg {
+    width: 50%;
+    fill: rgb(255, 255, 255);
+    margin-bottom: 0.55vw;
+    margin-right: 0.55vw;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 4px #00000050);
+}
+
+.speedometer .speed-items {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.speedometer .item.speedNum {
+    display: flex;
+    padding: 0px 1vw;
+    align-items: center;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: none;
+    flex-direction: column;
+}
+
+.speedometer .item.sItem {
+    border-radius: 5px;
+    width: 2.2vw;
+    height: 2.2vw;
+    background-color: rgb(0, 0, 0); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.842);
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.speedometer .item.sItem .fill {
+    position: absolute;
+    border-radius: 4px;
+    width: 2.2vw;
+    max-height: 2.2vw;  
+    height: auto;  
+    background-color: rgb(59, 0, 155);
+    transition: 0.2s;
+}
+
+.speedometer .more-info {
+    position: absolute;
+    bottom: 2.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1vw;
+}
+
+.speedometer .item p {
+    text-shadow: 0px 0px 6px #00000090;
+    font-weight: 900;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+}
+
+.speedometer .item p.px {
+    line-height: normal;
+}
+
+.speedometer .item span {
+    font-weight: 700;
+    font-size: 0.6vw;
+    text-shadow: 0px 0px 6px #00000090;
+    display: flex;
+}
+
+#talkingImage {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.863));
+}
+
+#talkingImage img {
+    width: 10px;
+    height: 10px;
+}
+
+#talkingImage.show {
+    opacity: 1;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Thank you for using our scripts, all comments are welcome and help us be better.
+-- This and most of our scripts are FREE, but to continue creating them I would like you to support me with a donation via PayPal: https://paypal.me/DARK4K?country.x=MX&locale.x=es_XC
+-- Join our discord for more free scripts: https://discord.gg/4PgngbsR5T
+
+-- [ES]
+-- Gracias por utilizar nuestros scripts, todos los comentarios son bienvenidos y nos ayudan a ser mejores.
+-- Este y la mayoría de nuestros scripts son GRATIS, pero para seguir creándolos me gustaría que me apoyaras con una donación vía PayPal: https://paypal.me/DARK4K?country.x=MX&locale.x=es_XC
+-- Únase a nuestro discord para obtener más scripts gratuitos: https://discord.gg/4PgngbsR5T
+
+-- GoodNetwork by @Darkmxg, Thanks
