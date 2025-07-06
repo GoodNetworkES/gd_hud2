@@ -1,7 +1,6 @@
-# GOOD NETWORK HUD V2 😎
-
+# GOODNETWORK HUD v2.0.1 ❤️‍🔥
 ![](https://i.imgur.com/wE3DzCg.jpeg)
-**Advanced HUD Script v2.0.1**
+# **Advanced HUD Script v2.0.1**
 Compatible with ESX & QBCore
 
 A clean, immersive and performance-friendly HUD to enhance your players' experience. Designed for clarity, modern visuals, and full framework support.
@@ -13,7 +12,7 @@ What's New in Version 2.0.1
 
 - Minor bug fixes and general improvements
 
-Main Features
+# Main Features
 - Clean and customizable interface
 
 - Health, armor, hunger, thirst, and stamina bars
@@ -24,27 +23,39 @@ Main Features
 
 - Optimized for performance and stability
 
-Frameworks Supported
+# Frameworks Supported
 - ESX (Legacy and Extended)
 
 - QBCore
 
-Installation
+# Installation
 
 1. Drag and drop into your resources folder
 2. Add the resource to your server.cfg
 3. Restart your server or use ensure in the console
 
-## SCREENSHOTS
+## Screenshots:
 ![](https://i.imgur.com/UEk0aYe.png)
 ![](https://i.imgur.com/ZtnYsRG.png)
 
-❤️ Thank you for using our scripts, all comments are welcome and help us be better.  
-🎁 This and most of our scripts are FREE, but to continue creating them I would like you to support me with a donation via PayPal: [https://paypal.me/DARK4K?country.x=MX&locale.x=es_XC](https://paypal.me/DARK4K?country.x=MX&locale.x=es_XC)  
-🪙 Join our discord for more free scripts: [https://discord.gg/4PgngbsR5T](https://discord.gg/4PgngbsR5T)  
+**En:** **Thank you** for using our scripts! Your feedback is invaluable and helps us improve continuously.
 
-❤️ Gracias por utilizar nuestros scripts, todos los comentarios son bienvenidos y nos ayudan a ser mejores.  
-🎁 Este y la mayoría de nuestros scripts son GRATIS, pero para seguir creándolos me gustaría que me apoyaras con una donación vía PayPal: [https://paypal.me/DARK4K?country.x=MX&locale.x=es_XC](https://paypal.me/DARK4K?country.x=MX&locale.x=es_XC)  
-🪙 Únase a nuestro discord para obtener más scripts gratuitos: [https://discord.gg/4PgngbsR5T](https://discord.gg/4PgngbsR5T)  
+Most of our scripts, including this one, are available for free. If you appreciate our work and want to support future development, you can do so with a voluntary donation via **PayPal**:
+https://paypal.me/DARK4K
 
-**GoodNetwork by @Darkmxg, Thanks ❤️** 
+Also, feel free to join our Discord community to access more free scripts and get support:
+https://discord.gg/4PgngbsR5T
+
+**Thank you** for being part of our community!
+GoodNetwork by @Darkmxg
+
+**Es:** **Gracias** por utilizar nuestros scripts. Tus comentarios son muy importantes para nosotros y nos ayudan a mejorar día a día.
+
+La mayoría de nuestros scripts, incluido este, son gratuitos. Si valoras nuestro trabajo y deseas apoyar el desarrollo futuro, puedes hacerlo con una donación voluntaria vía **PayPal**:
+https://paypal.me/DARK4K
+
+También te invitamos a unirte a nuestro Discord para acceder a más scripts gratuitos y recibir soporte:
+https://discord.gg/4PgngbsR5T
+
+¡**Gracias** por formar parte de nuestra comunidad!
+GoodNetwork por @Darkmxg
