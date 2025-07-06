@@ -38,8 +38,6 @@ What's New in Version 2.0.1
 ![](https://i.imgur.com/UEk0aYe.png)
 ![](https://i.imgur.com/ZtnYsRG.png)
 
-**En:** **Thank you** for using our scripts! Your feedback is invaluable and helps us improve continuously.
-
 Most of our scripts, including this one, are available for free. If you appreciate our work and want to support future development, you can do so with a voluntary donation via **PayPal**:
 https://paypal.me/DARK4K
 
@@ -48,14 +46,3 @@ https://discord.gg/4PgngbsR5T
 
 **Thank you** for being part of our community!
 GoodNetwork by @Darkmxg
-
-**Es:** **Gracias** por utilizar nuestros scripts. Tus comentarios son muy importantes para nosotros y nos ayudan a mejorar día a día.
-
-La mayoría de nuestros scripts, incluido este, son gratuitos. Si valoras nuestro trabajo y deseas apoyar el desarrollo futuro, puedes hacerlo con una donación voluntaria vía **PayPal**:
-https://paypal.me/DARK4K
-
-También te invitamos a unirte a nuestro Discord para acceder a más scripts gratuitos y recibir soporte:
-https://discord.gg/4PgngbsR5T
-
-¡**Gracias** por formar parte de nuestra comunidad!
-GoodNetwork por @Darkmxg
